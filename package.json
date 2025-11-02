@@ -6,7 +6,23 @@
     "dev": "node index.js",
     "start": "node server.js"
   },
-  "keywords": ["zoo", "dex", "exchange", "uniswap"],
+  "keywords": [
+    "zoo",
+    "dex",
+    "exchange",
+    "uniswap"
+  ],
   "author": "Zoo Network",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "wagmi": "^2.14.6",
+    "viem": "^2.22.4",
+    "ethers": "^6.13.4",
+    "@rainbow-me/rainbowkit": "^2.2.0",
+    "@tanstack/react-query": "^5.61.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0"
+  }
 }
