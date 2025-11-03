@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Zoo Exchange - Decentralized trading platform for Zoo ecosystem tokens",
   "scripts": {
-    "dev": "node index.js",
-    "start": "node server.js"
+    "dev": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "start": "craco start",
+    "api": "node server.js"
   },
   "keywords": [
     "zoo",
@@ -15,14 +18,40 @@
   "author": "Zoo Network",
   "license": "MIT",
   "dependencies": {
-    "wagmi": "^2.14.6",
-    "viem": "^2.22.4",
-    "ethers": "^6.13.4",
+    "@craco/craco": "^7.1.0",
     "@rainbow-me/rainbowkit": "^2.2.0",
-    "@tanstack/react-query": "^5.61.1"
+    "@tanstack/react-query": "^5.61.1",
+    "@vanilla-extract/webpack-plugin": "^2.3.22",
+    "cors": "^2.8.5",
+    "ethers": "^6.13.4",
+    "express": "^5.1.0",
+    "ioredis": "^5.8.2",
+    "mini-css-extract-plugin": "^2.9.4",
+    "pg": "^8.16.3",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-scripts": "^5.0.1",
+    "typescript": "^4.9.5",
+    "viem": "^2.22.4",
+    "wagmi": "^2.14.6"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0"
+  },
+  "engines": {
+    "node": ">= 18.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
