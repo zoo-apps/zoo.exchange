@@ -1,6 +1,10 @@
-FROM node:16-alpine
+FROM node:20-alpine AS build
 WORKDIR /app
-COPY package*.json ./
-RUN npm install
+RUN corepack enable && corepack prepare pnpm@9 --activate
+COPY package.json pnpm-lock.yaml .npmrc ./
+RUN pnpm install --frozen-lockfile
 COPY . .
-CMD ["npm", "start"]
+RUN pnpm run build
+
+FROM ghcr.io/hanzoai/spa
+COPY --from=build /app/build /public
