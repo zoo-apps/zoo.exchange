@@ -1,5 +1,6 @@
 import { Interface } from '@ethersproject/abi'
-import { abi as STAKING_REWARDS_ABI } from '@uniswap/liquidity-staker/build/StakingRewards.json'
+import StakingRewardsJSON from '@uniswap/liquidity-staker/build/StakingRewards.json'
+const STAKING_REWARDS_ABI = StakingRewardsJSON.abi
 import { CurrencyAmount, Token } from '@uniswap/sdk-core'
 import { Pair } from '@uniswap/v2-sdk'
 import { useWeb3React } from '@web3-react/core'

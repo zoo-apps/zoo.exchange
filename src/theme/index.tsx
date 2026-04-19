@@ -9,6 +9,15 @@ import { darkDeprecatedTheme, lightDeprecatedTheme } from './deprecatedColors'
 // todo - remove and replace imports with a new path
 export * from './components'
 export * from './components/text'
+// Backward compat alias for legacy TYPE usage (v2-era pattern)
+import { ThemedText } from './components/text'
+export const TYPE = {
+  largeHeader: ThemedText.LargeHeader,
+  mediumHeader: ThemedText.MediumHeader,
+  subHeader: ThemedText.SubHeader,
+  body: ThemedText.BodyPrimary,
+  small: ThemedText.BodySmall,
+}
 
 export const MEDIA_WIDTHS = {
   deprecated_upToExtraSmall: 500,
