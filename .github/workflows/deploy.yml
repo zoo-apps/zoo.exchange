@@ -38,6 +38,7 @@ jobs:
         run: pnpm run build
         env:
           NODE_ENV: production
+          NODE_OPTIONS: --openssl-legacy-provider
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
