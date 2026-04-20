@@ -89,7 +89,7 @@ const ProtocolBanner = () => {
   return (
     <Banner isDarkMode={isDarkMode}>
       <TextContainer>
-        <HeaderText>Powered by Lux Protocol</HeaderText>
+        <HeaderText>Powered by Zoo Protocol</HeaderText>
         <DescriptionText>
           The leading decentralized real world asset protocol, governed by a global community.
         </DescriptionText>

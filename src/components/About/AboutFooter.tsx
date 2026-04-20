@@ -121,15 +121,15 @@ const LogoSectionContent = () => {
           name={SharedEventName.ELEMENT_CLICKED}
           element={InterfaceElementName.TWITTER_LINK}
         >
-          <SocialLink href="https://twitter.com/luxdefi" target="_blank" rel="noopener noreferrer">
+          <SocialLink href="https://twitter.com/zoolabs" target="_blank" rel="noopener noreferrer">
             <TwitterIcon size={32} />
           </SocialLink>
         </TraceEvent>
-        <SocialLink href="https://github.com/luxfi" target="_blank" rel="noopener noreferrer">
+        <SocialLink href="https://github.com/zoolabs" target="_blank" rel="noopener noreferrer">
           <GithubIcon size={32} />
         </SocialLink>
       </SocialLinks>
-      <Copyright>© {new Date().getFullYear()} Lux Partners Limited</Copyright>
+      <Copyright>© {new Date().getFullYear()} Zoo Labs Foundation</Copyright>
     </>
   )
 }
@@ -150,9 +150,9 @@ export const AboutFooter = () => {
         </LinkGroup>
         <LinkGroup>
           <LinkGroupTitle>Protocol</LinkGroupTitle>
-          <ExternalTextLink href="https://lux.link">Ecosystem</ExternalTextLink>
-          <ExternalTextLink href="https://lux.vote">Governance</ExternalTextLink>
-          <ExternalTextLink href="https://github.com/luxfi">Developers</ExternalTextLink>
+          <ExternalTextLink href="https://zoo.network">Ecosystem</ExternalTextLink>
+          <ExternalTextLink href="https://zoo.vote">Governance</ExternalTextLink>
+          <ExternalTextLink href="https://github.com/zoolabs">Developers</ExternalTextLink>
         </LinkGroup>
         <LinkGroup>
           <LinkGroupTitle>Company</LinkGroupTitle>

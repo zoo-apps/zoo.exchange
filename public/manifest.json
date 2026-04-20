@@ -1,10 +1,10 @@
 {
   "background_color": "#fff",
   "display": "standalone",
-  "homepage_url": "https://lux.exchange/",
+  "homepage_url": "https://zoo.exchange/",
   "providedBy": {
-    "name": "LX",
-    "url": "https://lux.exchange/"
+    "name": "Zoo Exchange",
+    "url": "https://zoo.exchange/"
   },
   "icons": [
     {
@@ -21,10 +21,10 @@
     }
   ],
   "orientation": "portrait",
-  "name": "LX",
-  "description": "Swap or provide liquidity on the LUX exchange",
+  "name": "Zoo Exchange",
+  "description": "Swap or provide liquidity on Zoo Exchange",
   "iconPath": "./images/256x256_App_Icon_Pink.svg",
-  "short_name": "LX",
+  "short_name": "Zoo Exchange",
   "start_url": ".",
   "theme_color": "#141414"
 }

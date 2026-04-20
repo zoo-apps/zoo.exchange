@@ -39,7 +39,7 @@ export function SwitchLocaleLink() {
   return (
     <Container>
       <Trans>
-        Lux available in:{' '}
+        Zoo Exchange available in:{' '}
         <StyledInternalLink onClick={onClick} to={to}>
           {LOCALE_LABEL[targetLocale]}
         </StyledInternalLink>

@@ -49,7 +49,7 @@ const StyledLinkOut = styled(ArrowDown)`
 const EXTERNAL_APIS = [
   {
     name: 'Auto Router',
-    description: <Trans>The app fetches the optimal trade route from a Lux Partners Limited server.</Trans>,
+    description: <Trans>The app fetches the optimal trade route from a Zoo Labs Foundation server.</Trans>,
   },
   {
     name: 'Infura',
@@ -124,12 +124,12 @@ function PrivacyPolicy() {
       <AutoColumn gap="16px">
         <AutoColumn gap="sm" style={{ width: '100%' }}>
           <StyledExternalCard>
-            <ExternalLink href="https://docs.lux.exchange/v/terms-of-service">
+            <ExternalLink href="https://docs.zoo.exchange/v/terms-of-service">
               <RowBetween>
                 <AutoRow gap="4px">
                   <Info size={20} />
                   <ThemedText.DeprecatedMain fontSize={14} color="accentAction">
-                    <Trans>Lux Partners Limited Terms of Service</Trans>
+                    <Trans>Zoo Labs Foundation Terms of Service</Trans>
                   </ThemedText.DeprecatedMain>
                 </AutoRow>
                 <StyledLinkOut size={20} />
@@ -137,7 +137,7 @@ function PrivacyPolicy() {
             </ExternalLink>
           </StyledExternalCard>
           <StyledExternalCard>
-            <ExternalLink href="https://docs.lux.exchange/v/privacy-policy/">
+            <ExternalLink href="https://docs.zoo.exchange/v/privacy-policy/">
               <RowBetween>
                 <AutoRow gap="4px">
                   <Info size={20} />

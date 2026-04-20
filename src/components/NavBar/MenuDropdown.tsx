@@ -140,7 +140,7 @@ export const MenuDropdown = () => {
             <Column gap="16">
               <Column paddingX="8" gap="4">
                 {/* <PrimaryMenuRow to="/vote" close={toggleOpen}> */}
-                <PrimaryMenuRow href="https://lux.vote/">
+                <PrimaryMenuRow href="https://zoo.vote/">
                   <Icon>
                     <GovernanceIcon width={24} height={24} />
                   </Icon>
@@ -173,10 +173,10 @@ export const MenuDropdown = () => {
                 alignItems={{ sm: 'center', md: 'flex-start' }}
                 paddingX="8"
               >
-                <SecondaryLinkedText href="https://help.lux.exchange/">
+                <SecondaryLinkedText href="https://help.zoo.exchange/">
                   <Trans>Help center</Trans> ↗
                 </SecondaryLinkedText>
-                <SecondaryLinkedText href="https://docs.lux.exchange/">
+                <SecondaryLinkedText href="https://docs.zoo.exchange/">
                   <Trans>Documentation</Trans> ↗
                 </SecondaryLinkedText>
                 <SecondaryLinkedText

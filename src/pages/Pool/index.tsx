@@ -248,7 +248,7 @@ export default function Pool() {
           <BookOpen size={16} />
         </PoolMenuItem>
       ),
-      link: 'https://docs.lux.exchange/',
+      link: 'https://docs.zoo.exchange/',
       external: true,
     },
   ]

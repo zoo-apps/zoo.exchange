@@ -166,7 +166,7 @@ export default function Landing() {
                   <RowBetween>
                     <ThemedText.DeprecatedWhite fontSize={14}>
                       <Trans>
-                        LUX tokens represent voting shares in Lux Protocol governance. You can vote on each proposal yourself
+                        ZOO tokens represent voting shares in Zoo Protocol governance. You can vote on each proposal yourself
                         or delegate your votes to a third party.
                       </Trans>
                     </ThemedText.DeprecatedWhite>
@@ -176,7 +176,7 @@ export default function Landing() {
                       color: theme.white,
                       textDecoration: 'underline',
                     }}
-                    href="https://lux.vote"
+                    href="https://zoo.vote"
                     target="_blank"
                   >
                     <ThemedText.DeprecatedWhite fontSize={14}>

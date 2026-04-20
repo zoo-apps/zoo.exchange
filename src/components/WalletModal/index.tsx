@@ -329,9 +329,9 @@ export default function WalletModal({
 
       const content = (
         <Trans>
-          By connecting a wallet, you agree to the Lux Partners Limited{" "}
-          <ExternalLink href="https://docs.lux.exchange/v/terms-of-service/">Terms of Service</ExternalLink> and consent to its{' '}
-          <ExternalLink href="https://docs.lux.exchange/v/privacy-policy">Privacy Policy</ExternalLink>.
+          By connecting a wallet, you agree to the Zoo Labs Foundation{" "}
+          <ExternalLink href="https://docs.zoo.exchange/v/terms-of-service/">Terms of Service</ExternalLink> and consent to its{' '}
+          <ExternalLink href="https://docs.zoo.exchange/v/privacy-policy">Privacy Policy</ExternalLink>.
         </Trans>
       )
       return (
