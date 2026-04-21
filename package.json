@@ -62,7 +62,7 @@
     "@uniswap/sdk-core": "^7.13.0",
     "@uniswap/smart-order-router": "2.10.0",
     "@uniswap/swap-router-contracts": "1.1.0",
-    "@uniswap/token-lists": "1.0.0-beta.33",
+    "@uniswap/token-lists": "1.0.0-beta.35",
     "@uniswap/universal-router-sdk": "^5.1.0",
     "@uniswap/v2-core": "1.0.0",
     "@uniswap/v2-periphery": "1.1.0-beta.0",
