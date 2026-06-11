@@ -42,3 +42,7 @@ contracts/typechain-types/
 # Turbo
 .turbo
 CLAUDE.md
+.env.local
+.env.production
+.env.development
+.env.*.local
