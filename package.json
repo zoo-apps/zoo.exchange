@@ -16,7 +16,7 @@
     "uniswap"
   ],
   "author": "Zoo Network",
-  "license": "MIT",
+  "license": "GPL-3.0-or-later",
   "dependencies": {
     "@apollo/client": "3.7.2",
     "@craco/craco": "^7.1.0",

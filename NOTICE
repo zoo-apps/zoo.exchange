@@ -1,0 +1,22 @@
+Zoo Exchange
+Copyright (c) 2026 Zoo Labs Foundation, Inc.
+
+This interface derives from the Uniswap Labs interface
+(https://github.com/Uniswap/interface).
+
+    Copyright (c) 2023 Uniswap Labs
+
+--------------------------------------------------------------------------
+
+Licensing
+
+This work is licensed under the GNU General Public License v3.0 or later.
+The full text is in the LICENSE file alongside this notice, and it is the
+licence that governs — the package manifest previously declared MIT, which
+it could not: GPL-3.0 §5(c) requires the whole of a derived work to be
+licensed under the GPL to anyone who receives it, and a permissive
+declaration over GPL source grants rights the upstream never granted.
+
+GPL-3.0 §5(a) requires a modified work to carry prominent notices stating
+that it is modified. This interface is a modified fork of Uniswap Labs'
+work; the modifications are Zoo's and are recorded in the git history.
